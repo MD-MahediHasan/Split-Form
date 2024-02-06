@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ControllForm from './Components/ControllForm';
+import SplitForm from './Components/Split Form';
+import UncontrolledForm from './Components/UncontrolledForm';
+import Input from "./Components/index";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    {/* <Input /> */}
+
+    {/* <UncontrolledForm /> */}
+    {/* <ControllForm/> */}
+    <SplitForm />
+   
+   </div>
   );
 }
 
