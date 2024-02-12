@@ -2,7 +2,7 @@ import React from "react";
 import TextInput from "./TextInput";
 import propsTypes from "prop-types";
 const Form=props=>(
-    <form onSubmit={props.handelSubmit} >
+    <form className="form-control-sm" onSubmit={props.handelSubmit} >
 
            <TextInput 
             name="name"
@@ -28,7 +28,7 @@ const Form=props=>(
             onChange={props.handleChange}
            />
             
-            <button type="submit">Submit</button>
+            <button className="btn btn-primary" type="submit">Submit</button>
           </form>
 );
 
